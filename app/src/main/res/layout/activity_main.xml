@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.yutra.ccc.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code Course Camp"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="5dp"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/splashscreen"
+        />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Saya Sedang Belajar Android Menggunakan Bahasa Pemrograman Kotlin bersama Code Course Camp di Code Margonda"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/btnSosmed"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:background="#6fccc9"
+            android:text="Kirim Ke Sosmed"
+
+            />
+
+        <Button
+            android:id="@+id/btnToast"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="#6fccc9"
+            android:text="Buka Youtube"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</LinearLayout>
